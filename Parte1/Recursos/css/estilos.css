@@ -1,0 +1,166 @@
+body {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #FFF;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 30px;
+}
+
+.Texto {
+  text-align: center;
+  color: #000;
+  font-family: Arial;
+  font-size: 25px;
+}
+
+.text {
+  margin-top: 5px;
+}
+
+.Boton {
+  background-color: #ebebeb;
+  border-style: none;
+  border-color: rgba(121, 121, 121, 1);
+  border-radius: 5px;
+  color: black;
+  width: 200px;
+  padding: 15px 0px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* HEADER   */
+#header {
+  top: 20px;
+  height: 170px;
+  background-color: rgba(0, 255, 255);
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(121, 121, 121, 1);
+  border-radius: 10px;
+}
+
+/* navBar  */
+#navBar {
+  margin-top: 30px;
+
+}
+
+/* leftMenu  */
+#leftMenu {
+  height: 320px;
+  background-color: rgba(255, 255, 255);
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(121, 121, 121, 1);
+  border-radius: 10px;
+}
+
+/* content */
+#content {
+  height: 320px;
+  background-color: rgba(51, 153, 51);
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(121, 121, 121, 1);
+  border-radius: 10px;
+}
+
+/* rigthMenu */
+#rightMenu {
+  height: 320px;
+  background-color: rgba(0, 0, 0);
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(121, 121, 121, 1);
+  border-radius: 10px;
+}
+
+.space {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.video {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.containerButton {
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+@media screen and (max-width:1198px) {
+  .containerButton {
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+}
+
+@media screen and (max-width:990px) {
+  .containerButton {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .containerButton {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width:448px) {
+  .containerButton {
+    margin-left: 0%;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width:448px) {
+  .containerButton {
+    margin-left: 0%;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width:1075px) {
+  .Boton {
+    width: 120px;
+  }
+}
+
+@media screen and (max-width:991px) {
+  .Boton {
+    width: 220px;
+  }
+}
+
+.border {
+  margin-top: 10px;
+  height: 50px;
+}
+
+/* footer  */
+#footer {
+  margin-top: 10px;
+  height: auto;
+  background-color: rgba(255, 255, 0);
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(121, 121, 121, 1);
+  border-radius: 10px;
+}
