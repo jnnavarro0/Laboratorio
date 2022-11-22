@@ -14,3 +14,37 @@ body {
     width: 200px;
     height: 180px;
 }
+
+.cuadro{
+    width: 600px; 
+    margin-left: 250px; 
+    margin-top: 50px;
+}
+
+@media(max-width:995px){
+    .cuadro{
+        width: 600px; 
+        margin-left: 100px; 
+        margin-top: 50px;
+    }
+    .container{
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+  }
+
+  @media(max-width:400px){
+    .cuadro{
+        width: 100%; 
+        margin-left: 0px; 
+        margin-top: 0px;
+    }
+    .container{
+        margin-right: 0px !important;
+        margin-left: 0px !important;
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+  }
