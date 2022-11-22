@@ -1,4 +1,3 @@
-
 body {
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.5),
@@ -10,41 +9,201 @@ body {
     background-size: cover;
 }
 
-.logoFrom{
+.logoFrom {
     width: 200px;
     height: 180px;
+    margin-left: 150px;
+    margin-top: -25px;
 }
 
-.cuadro{
-    width: 600px; 
-    margin-left: 250px; 
+.title{
+    margin-left: 130px;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.RemenberMe{
+    width: 120px;
+}
+
+.form{
+    margin-left: 50px;
+}
+
+.title h1{
+    margin-left: 50px;
+    font-size: 50px;
+}
+
+.cuadro {
+    width: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.container {
+    width: 500px;
+    height: auto;
+    margin-left: 400px;
     margin-top: 50px;
+    border-radius: 10px;
+    background-color: rgb(221, 221, 221);
 }
 
-@media(max-width:995px){
-    .cuadro{
-        width: 600px; 
-        margin-left: 100px; 
-        margin-top: 50px;
+
+
+
+.form-control:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
+}
+
+.form-control {
+    display: block;
+    width: 370px;
+    height: 30px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+}
+
+.form-group{margin-bottom:15px}
+
+.Log{
+    width: 400px;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(29, 94, 179);
+    border: none;
+    border-radius: 5px;
+}
+
+.Forget{
+    left: 620px;
+    color: rgb(29, 94, 179);
+    margin-left: 100px;
+    text-align: right;
+    position: absolute;
+}
+
+@media(max-width:995px) {
+    .cuadro {
+        width: 200px;
+        margin-left: 0px;
+        margin-top: -50px;
     }
-    .container{
+
+    .container {
         margin-right: auto;
         margin-left: auto;
         padding-left: 0px !important;
         padding-right: 0px !important;
     }
-  }
 
-  @media(max-width:400px){
-    .cuadro{
-        width: 100%; 
-        margin-left: 0px; 
+    .Forget{
+        left: 580px;
+        color: rgb(29, 94, 179);
+        margin-left: auto;
+        text-align: right;
+        position: absolute;
+    }
+}
+
+@media(max-width:400px) {
+    .cuadro {
+        width: 100%;
+        margin-left: 0px;
         margin-top: 0px;
     }
-    .container{
+
+    .container {
         margin-right: 0px !important;
         margin-left: 0px !important;
         padding-left: 0px !important;
         padding-right: 0px !important;
     }
-  }
+}
+
+
+
+
+
+
+.containerF button {
+    width: 36%;
+}
+
+.containerF {
+    width: 700px;
+    background-color: rgb(235, 235, 172);
+    padding: 30px;
+    margin: auto;
+    margin-top: 15px;
+    /* arriba*/
+    border-radius: 4px;
+    font-family: 'calibri';
+    color: black;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.form-register .controls {
+    width: 80%;
+    background: rgb(235, 235, 172);
+    padding: 10px;
+    margin-bottom: 7px;
+    /* arriba, derecha, abajo, izquierda */
+
+}
+
+.controls {
+    width: 100%;
+    background: rgb(235, 235, 172);
+    padding: 10px;
+    margin-bottom: 7px;
+    /* arriba, derecha, abajo, izquierda */
+    border-radius: 10px;
+    font-family: 'calibri';
+    color: black;
+    font-size: 18px;
+}
+
+.form-login .buttons {
+    text-align: center;
+}
+
+.buttons {
+    padding: 10px;
+    margin: 10px auto;
+    width: 100%;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 700;
+    color: #000;
+    background-color: rgb(161, 173, 108);
+    border: none;
+    border-radius: 45px;
+    transition: all 0.9s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.buttons:hover {
+    background-color: #d48c8c;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    transform: translateY(-5px);
+}
